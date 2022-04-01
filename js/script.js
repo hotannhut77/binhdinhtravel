@@ -44,7 +44,7 @@ videoBtnLists.forEach( btn =>{
 		document.querySelector(".vid-btn.play-video").classList.remove("play-video");
 		btn.classList.add("play-video");
 		let src = btn.getAttribute("src-videos");
-		document.querySelector("#video-slider").src=src;
+		document.querySelector("#banner").src=src;
 	});
 });
 

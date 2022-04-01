@@ -85,7 +85,7 @@ header .logo span{
 header .navbar-container a{
 	color: #fff;
 	font-size: 2rem;
-	margin: 0.8rem 3rem;
+	margin: 0.8rem 2rem;
 }
 
 header .navbar-container a:hover{
@@ -96,7 +96,8 @@ header .icon i{
 	font-size: 2.5rem;
 	color: #fff;
 	cursor: pointer;
-	margin-right: 2rem;
+	/* margin-right: 1.8rem; */
+	padding: 0 1rem;
 }
 
 header .icon i:hover{
@@ -272,11 +273,11 @@ border-color: var(--orange-color);
 	text-shadow: 0 .3rem rgba(0,0,0,.2);
 }
 
-.slides-video .video-container video{
+.slides-video .video-container img{
 	position: absolute;
 	top: 0;left: 0;
 	z-index: -10;
-	width: 100vw;height: 100vh; 
+	width: 100%;height: 100vh; 
 	/* LƯU Ý CHỔ NÀY */
 	object-fit: cover; 
 	/* CHÚ Ý TÌM HIỂU TÍNH NĂNG NÀY */
